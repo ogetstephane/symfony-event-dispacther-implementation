@@ -1,0 +1,20 @@
+{
+    "name": "ogetstephane/event-dispatcher-implementation",
+    "description": "Syfony event dispatcher implementation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stéphane Oget",
+            "email": "ogetstephane@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/event-dispatcher": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EventDispatcherImplementation\\": "src"
+        },
+        "classmap": ["src"]
+    }
+}
